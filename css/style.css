@@ -1,34 +1,9 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-Theme Name:
-Version:        1.0.0
-Author:         themexriver
-URL:            http://themeforest.net/user/themexriver
--------------------------------------------------------------------*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-#0.1	Theme Reset Style
-#0.2	Global Elements
-#0.3	header
-#0.4	hero-slider
-#0.5	footer
-#0.6	wedding-couple-section
-#0.7	count-down-section
-#0.8	story-section
-#0.9	cta
-#1.0	events-section
-#1.1	inportant-people-section
-#1.2	gallery-section
-#1.3	rsvp-section
-#1.4	getting-there-section
-#1.5	gift-registration-section
 
-----------------------------------------------------------------*/
 /*---------------------------
 	Fonts
 ----------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900");
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
@@ -37,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #fff;
   font-size: 18px;
   font-size: 1rem;
@@ -409,8 +384,8 @@ a:focus {
   margin: 0;
   font-size: 65px;
   font-size: 3.61111rem;
-  color: #5e9a8e;
-  opacity: 0.6;
+  color: #fa699c;
+  /* opacity: 0.6; */
 }
 
 @media (max-width: 991px) {
@@ -444,14 +419,14 @@ a:focus {
 
 .section-title h2, .section-title-white h2 {
   font-family: "Great Vibes", cursive;
-  background-color: rgba(94, 154, 142, 0.1);
+  /* background-color: rgba(250, 105, 156); */
   font-size: 46px;
   font-size: 2.55556rem;
-  color: #848383;
+  color: #fa699c;
   margin: 59px 0 0;
   padding: 10px 25px 5px;
-  border-top: 2px solid rgba(94, 154, 142, 0.1);
-  border-bottom: 2px solid rgba(94, 154, 142, 0.1);
+  /* border-top: 2px solid rgba(250, 105, 156, 0.1); */
+  /* border-bottom: 2px solid rgba(250, 105, 156, 0.1); */
   display: inline-block;
   text-transform: capitalize;
   letter-spacing: 3px;
@@ -762,7 +737,7 @@ a:focus {
   left: 0;
   top: 0;
   border: 5px solid #f1f1f1;
-  border-top: 5px solid #5e9a8e;
+  border-top: 5px solid #f9508c;
   border-radius: 50%;
   -webkit-animation: rotating 1s linear infinite;
   animation: rotating 1s linear infinite;
@@ -782,7 +757,7 @@ a:focus {
 .preloader .icon i:before {
   font-size: 55px;
   font-size: 3.05556rem;
-  color: #5e9a8e;
+  color: #f9508c;
 }
 
 @-webkit-keyframes rotating {
@@ -1327,7 +1302,7 @@ a:focus {
     width: 100%;
   }
   .site-header .navbar-header button {
-    background-color: #5e9a8e;
+    background-color: #fa699c;
     width: 40px;
     height: 35px;
     border: 0;
@@ -1455,7 +1430,7 @@ a:focus {
   font-size: 35px;
   font-size: 1.94444rem;
   margin: 0;
-  text-shadow: 1px 1px 2px #999999;
+  /* text-shadow: 1px 1px 2px #999999; */
 }
 
 @media (max-width: 991px) {
@@ -1478,12 +1453,12 @@ a:focus {
 }
 
 .header-style-1 .couple-logo a, .header-style-2 .couple-logo a {
-  color: #5e9a8e;
+  color: #777;
 }
 
-.header-style-1 .navigation, .header-style-2 .navigation {
+/* .header-style-1 .navigation, .header-style-2 .navigation {
   border-bottom: 1px solid #ececec;
-}
+} */
 
 .header-style-1 .navigation:after, .header-style-2 .navigation:after {
   content: "";
@@ -1508,10 +1483,10 @@ a:focus {
 
 @media screen and (min-width: 992px) {
   .header-style-1 #navbar > ul > li > a, .header-style-2 #navbar > ul > li > a {
-    font-size: 18px;
+    font-size: 24px;
     font-size: 1rem;
-    font-weight: 600;
-    color: #413d3d;
+    font-weight: 500;
+    color: #fa699c;
     padding: 35px 17px;
     text-transform: uppercase;
   }
@@ -1566,7 +1541,7 @@ a:focus {
 
 @media (max-width: 991px) {
   .hero {
-    min-height: 500px;
+    min-height: 540px;
   }
 }
 
@@ -1620,7 +1595,7 @@ a:focus {
 
 .hero .slick-prev,
 .hero .slick-next {
-  background-color: rgba(94, 154, 142, 0.6);
+  background-color: rgba(255, 245, 249, 0.6);
   width: 50px;
   height: 50px;
   z-index: 111;
@@ -1629,8 +1604,8 @@ a:focus {
   -o-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
-  box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
+  -webkit-box-shadow: 0 0 0 5px rgba(255, 245, 249, 0.9);
+  box-shadow: 0 0 0 5px rgba(255, 245, 249, 0.9);
   opacity: 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -1792,14 +1767,14 @@ a:focus {
   }
 }
 
-.hero .wedding-announcement .couple-name-merried-text h2,
+/* .hero .wedding-announcement .couple-name-merried-text h2,
 .hero .wedding-announcement .married-text h4 {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-}
+} */
 
 .hero .wedding-announcement .couple-name-merried-text i {
-  font-size: 450px;
-  color: rgba(94, 154, 142, 0.7);
+  font-size: 200px;
+  color: rgba(250, 105, 156, 0.15);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1858,7 +1833,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date:before {
-  background-color: rgba(94, 154, 142, 0.3);
+  background-color: rgba(249, 80, 140, 0.3);
   width: 110%;
   height: 110%;
   left: -5%;
@@ -1877,7 +1852,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date:after {
-  background-color: rgba(94, 154, 142, 0.7);
+  background-color: rgba(249, 80, 140, 0.7);
   width: 100%;
   height: 100%;
   left: 0;
@@ -1890,7 +1865,7 @@ a:focus {
   font-size: 2.22222rem;
   color: #fff;
   margin: 55px 0 0.2em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); */
 }
 
 @media (max-width: 1199px) {
@@ -1913,7 +1888,6 @@ a:focus {
   font-size: 20px;
   font-size: 1.11111rem;
   color: #fff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 1199px) {
@@ -2609,7 +2583,7 @@ a:focus {
 
 @media (max-width: 991px) {
   .story-section .story-timeline .story-text {
-    background: rgba(94, 154, 142, 0.05);
+    background: #fdfdfd;
     padding: 35px 25px;
   }
 }
@@ -2634,12 +2608,12 @@ a:focus {
 }
 
 .story-section .story-timeline .text-holder .heart {
-  background-color: #9cc2bb;
+  background-color: #fa699c;
   width: 43px;
   height: 43px;
   line-height: 41px;
   text-align: center;
-  border: 2px solid rgba(94, 154, 142, 0.5);
+  /* border: 2px solid rgba(94, 154, 142, 0.5); */
   position: absolute;
   left: -22px;
   top: -22px;
@@ -2670,7 +2644,7 @@ a:focus {
   font-size: 22px;
   font-size: 1.22222rem;
   font-weight: 600;
-  color: #5e9a8e;
+  color: #fa699c;
   margin: 0 0 0.5em;
   text-transform: uppercase;
 }
