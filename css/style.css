@@ -2675,6 +2675,16 @@ a:focus {
   display: inline-block;
 }
 
+.story-section .story-timeline img cs {
+  display: none;
+}
+
+@media (max-width: 991px){
+.story-section .story-timeline ss {
+    display: none;
+  }
+}
+
 .story-section .video-holder {
   position: relative;
 }
@@ -2812,9 +2822,10 @@ a:focus {
 }
 
 .events-section .event .details {
-  width: 60%;
-  float: left;
+  /* width: 60%; */
+  /* float: left; */
   padding-left: 35px;
+  
 }
 
 @media (max-width: 991px) {
