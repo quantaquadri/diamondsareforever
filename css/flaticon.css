@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: "Flaticon";
-  src: url("../fonts/Flaticon.eot");
-  src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/Flaticon.woff") format("woff"),
-       url("../fonts/Flaticon.ttf") format("truetype"),
-       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1535286638/diamondsforevr/fa/Flaticon.eot");
+  src: url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1535286641/diamondsforevr/fa/Flaticond41d.eot") format("embedded-opentype"),
+       url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1535286644/diamondsforevr/fa/Flaticon.woff") format("woff"),
+       url("https://res.cloudinary.com/dxuap8kxy/raw/upload/v1535286645/diamondsforevr/fa/Flaticon.ttf") format("truetype"),
+       url("https://drive.google.com/open?id=1ohOxAhOFcc3AgiHHrBWHy3Vjp6iDPnQz#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    src: url("https://drive.google.com/open?id=1ohOxAhOFcc3AgiHHrBWHy3Vjp6iDPnQz#Flaticon") format("svg");
   }
 }
 
